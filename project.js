@@ -3,7 +3,7 @@
 let num=13;
 Let fac=0;
 for(let a=0;a<num;a++){
- if(num%num==0){
+ if(num%a==0){
   fac++;
    }
 }
@@ -18,9 +18,9 @@ for(let a=0;a<str.length;a++){
   for(let i=str.length-1;i>=0;i++){
     if(str[a]===str[i]){
      console.log("Yes");
+     break;
+
    }
     else{
      console.log("No");
-    }
-  }
-}
+break;
