@@ -2,26 +2,26 @@
 
 
  let num=29;
-     let fac=0;
+     let count=0;
      
     for(let a=1;a<=num;a++){
         if(num%a==0){
-           fac++;
+           count++;
         }
     }
     
-  fac===2 ? console.log("Yes", num, "is Prime") : console.log("No", num, "is not Prime");
+  count===2 ? console.log("Yes", num, "is Prime") : console.log("No", num, "is not Prime");
     
      
   
     //Check whether a string is palindrome or not.
     
-    let str="masai";
+    let str="madam";
     
-    let rev="";
+    let bag="";
     
     for(let a=str.length-1;a>=0;a--){
-        rev+=str[a];
+        bag+=str[a];
     }
     
-   str===rev ?console.log("Yes"): console.log("No") 
+   str===rev ?console.log("Yes it is a Palindrome"): console.log("No it is a Palindrome") 
